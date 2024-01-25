@@ -1,0 +1,9 @@
+
+server:
+  port: 9000
+
+data:
+  mongodb:
+    database: transcript
+    uri: mongodb://root:password@localhost:27017/admin
+    session-collection: chronos-session
